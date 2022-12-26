@@ -16,7 +16,7 @@ SlipperXの使用方法を紹介します。
     - [4.1. VRモードの使用方法](#41-vrモードの使用方法)
     - [4.2. WASDモードの使用方法](#42-wasdモードの使用方法)
     - [4.3. 再起動方法](#43-再起動方法)
-    - [4.4. 電源の切り方（ディープスリープ）](#44-電源の切り方ディープスリープ)
+    - [4.4. 電源の切り方](#44-電源の切り方)
     - [4.5. 充電方法](#45-充電方法)
   - [5. 動作モード説明](#5-動作モード説明)
     - [5.1. VRモード](#51-vrモード)
@@ -44,7 +44,7 @@ SlipperXの使用方法を紹介します。
 
 1. SlipperXの電源ボタンを押して「Please CONNECT」の画面になるまで待ちます
 
-    ![Please CONNECT画面](img/gui_wait_ble.JPG)
+    ![Please CONNECT画面](img/gui_wait_ble.drawio.svg)
 
 1. パソコンの「設定」→「デバイス」→「Bluetooth とその他のデバイス」画面からBluetooth設定を有効にします
 
@@ -71,7 +71,7 @@ SlipperXをWASDモードで使用する場合は、はじめに地磁気セン�
 
 1. 「CALIB」ボタンを押して、SlipperXを8の字を描くように複数回動かします
 
-    ![キャリブレーション中画面](img/gui_calibrating.JPG)
+    ![キャリブレーション中画面](img/gui_calibrating.drawio.svg)
 
     ![キャリブレーション](img/calibration.drawio.svg)
 
@@ -109,11 +109,13 @@ SlipperXをWASDモードで使用する場合は、はじめに地磁気セン�
 
 1. 中央の「INIT」ボタンを押すと、今向いている方向をゼロ（前方）に設定することができます
 
+    ![Init画面](img/gui_initialized.drawio.svg)
+
 ### 4.3. 再起動方法
 
 SlipperXの電源ボタンを1回押します
 
-### 4.4. 電源の切り方（ディープスリープ）
+### 4.4. 電源の切り方
 
 SlipperXの電源ボタンを素早く2回押します\
 ※厳密には電源OFFではなく、ディープスリープに移行します
@@ -128,7 +130,7 @@ TypeCコネクタにUSB Type-Cケーブル（5V@500mA）を接続します。
 
 VRChatなどのVRゲームを想定したモードです。
 
-![VRmode画面](img/gui_vr.JPG)
+![VRmode画面](img/gui_vr.drawio.svg)
 
 前進はSlipperX、進行方向は頭の向き（VRゴーグル）で移動します。\
 SlipperXを動かす方向に対応するキー出力を以下の表に記載します。
@@ -141,7 +143,7 @@ SlipperXを動かす方向に対応するキー出力を以下の表に記載し
 
 着座でのPCゲームでの使用を想定し、歩行に合わせて"W","A","S","D"といった前後左右の移動入力が行えます。
 
-![WASDmode画面](img/gui_wasd.JPG)
+![WASDmode画面](img/gui_wasd.drawio.svg)
 
 進行方向を足の向きで検知します。\
 SlipperXを動かす方向と向き、および動作頻度に対応するキー出力を以下の表に記載します。
