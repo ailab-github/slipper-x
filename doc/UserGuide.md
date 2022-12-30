@@ -2,7 +2,7 @@
 
 SlipperXの使用方法を紹介します。
 
-![SlipperX](img/slipper_x.JPG)
+![SlipperX](img/slipper_x.png)
 
 ## 1. 目次
 
